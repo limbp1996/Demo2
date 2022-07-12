@@ -4,7 +4,7 @@ public class AccountUtils {
       //Test changes 2
       //Test Merge Conflict Featured Branch
       //Test Merge Conflict Master 
-      //Test Conflict
+      //Test Conflict from featured
       List<Account> acctList = [SELECT Id, Name FROM Account WHERE billingState = :st];
 	   return acctList;
 	}
